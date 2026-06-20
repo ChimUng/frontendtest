@@ -1,0 +1,1 @@
+export const CONTAINER_CLASS = "max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8";

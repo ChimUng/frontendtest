@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Định nghĩa mượt mà cho toàn bộ hệ thống */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-geist-sans), sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark; 
+  min-height: 100vh;
+}
+
+/* Scrollbar webkit tùy chỉnh */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(77,20,140,0.2); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(77,20,140,0.4); }
+
+/* Ẩn scrollbar ngang cho card row */
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
