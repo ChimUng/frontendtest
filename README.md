@@ -15,21 +15,6 @@
 
 ---
 
-## 🖼️ Giao diện
-
-> **Hướng dẫn thêm ảnh:** Chụp màn hình → upload lên [Imgur](https://imgur.com/upload) → copy link `.png` trực tiếp → thay vào `YOUR_IMAGE_LINK` bên dưới.  
-> Hoặc tạo thư mục `/docs/screenshots/` trong repo rồi dùng đường dẫn tương đối `./docs/screenshots/home.png`.
-
-| Trang chủ | Danh mục sản phẩm |
-|:---------:|:-----------------:|
-| ![Home](YOUR_IMAGE_LINK_HOME) | ![Products](YOUR_IMAGE_LINK_PRODUCTS) |
-
-| Chi tiết sản phẩm | Giỏ hàng |
-|:-----------------:|:--------:|
-| ![Detail](YOUR_IMAGE_LINK_DETAIL) | ![Bag](YOUR_IMAGE_LINK_BAG) |
-
----
-
 ## 🛠️ Tech Stack
 
 | Layer | Công nghệ |
